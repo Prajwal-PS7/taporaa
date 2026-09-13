@@ -49,6 +49,12 @@
       --font-display: 'Satoshi', Inter, sans-serif;
     }
 
+    /* Light theme logo */
+    [data-theme="light"] .brand-logo-img {
+        content: url("./assets/icon/tp_logo_light.png");
+    }
+
+
     [data-theme="dark"] {
       --color-bg: #0e1622;
       --color-surface: #151f2d;
@@ -68,6 +74,11 @@
       --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.22);
       --shadow-md: 0 18px 42px rgba(0, 0, 0, 0.28);
       --shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Dark theme logo */
+    [data-theme="dark"] .brand-logo-img {
+        content: url("./assets/icon/tp_logo_dark.png");
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
