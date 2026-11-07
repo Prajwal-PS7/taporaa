@@ -1,171 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-IN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taporaa | Service that comes to you</title>
-  <meta name="description" content="Responsive Taporaa web page for mobile, tablet and desktop. developed by Prajwal-PS7" />
-  <link rel="shortcut icon" href="./assets/icon/favicon.png" type="image/png" />
-  <link rel="preconnect" href="https://api.fontshare.com" />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./lib/static/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taporaa | Vehicle Service Discovery & Care Guides</title>
+  <meta name="description" content="Discover vehicle-service options, understand common repair needs and read practical two-wheeler care guides with Taporaa.">
+  <link rel="canonical" href="https://taporaa.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Taporaa">
+  <meta property="og:title" content="Taporaa | Vehicle Service Discovery & Care Guides">
+  <meta property="og:description" content="Discover vehicle-service options, understand common repair needs and read practical two-wheeler care guides with Taporaa.">
+  <meta property="og:url" content="https://taporaa.com/">
+  <meta property="og:image" content="https://taporaa.com/assets/img/og-cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Google tag (gtag.js) -->
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="theme-color" content="#111827">
+  <!-- Google Analytics 4: retained from the existing Taporaa site. Disable in site-config.js if no longer used. -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDCK1PM405"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-NDCK1PM405');</script>
+  <!-- AdSense site-review code: retained from the existing Taporaa site. Do not modify the client ID. -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1390238086527698" crossorigin="anonymous"></script>
 
-    gtag('config', 'G-NDCK1PM405');
-  </script>
-
-  <!-- Google Adsense Code Snipt-->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1390238086527698"
-     crossorigin="anonymous"></script>
 
 </head>
 <body>
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a href="#home" class="brand" aria-label="Taporaa home">
-        <img src="./assets/icon/tp_logo_dark.png" alt="Taporaa Logo" class="brand-logo-img">
-        <span>Taporaa</span>
-      </a>
 
-      
-      <div class="nav-wrap"> 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-        <span aria-hidden="true"></span>
-      </button>
- 
-        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-          <a href="#home" class="active">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Taporaa home">
+      <img src="/assets/img/taporaa-logo.svg" width="154" height="42" alt="Taporaa" />
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="/">Home</a><a href="/about.html">About</a><a href="/services.html">Services</a><a href="/how-it-works.html">How it works</a><a href="/vehicle-care/">Vehicle care</a><a class="nav-contact" href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
 
-      <div class="header-actions">
-        <a href="#contact" class="btn-outline">Log in</a>
-        <button class="theme-toggle" data-theme-toggle aria-label="Switch color mode">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"></path></svg>
-        </button>
-        <a href="#contact" class="btn">Get started</a>
-      </div>
+<main id="main" class="container page-main">
+
+<section class="hero section-pad">
+  <div class="hero-copy">
+    <p class="eyebrow">VEHICLE CARE, MADE CLEARER</p>
+    <h1>Find the right help for your next vehicle repair.</h1>
+    <p class="hero-lead">Taporaa is a vehicle-service discovery and coordination platform designed to connect vehicle owners with independent local garages and service providers for common repair and roadside needs.</p>
+    <div class="button-row"><a class="button button-primary" href="/services.html">Explore services</a><a class="button button-secondary" href="/vehicle-care/">Read vehicle-care guides</a></div>
+    <p class="hero-disclaimer">Service availability, response time, repair scope and pricing are confirmed with the relevant provider before work begins.</p>
+  </div>
+  <div class="hero-art"><img src="/assets/img/garage-illustration.svg" alt="Illustration of a motorcycle beside a vehicle service workshop" width="560" height="420"></div>
+</section>
+<section class="trust-strip" aria-label="What Taporaa helps with"><div><strong>Discover</strong><span>Relevant service options</span></div><div><strong>Compare</strong><span>Provider details and quotes</span></div><div><strong>Confirm</strong><span>Scope before repair work</span></div></section>
+<section class="section section-pad">
+  <div class="section-heading"><p class="eyebrow">WHAT WE HELP WITH</p><h2>Vehicle support for everyday situations</h2><p>Explore common service categories. The exact work offered depends on the independent garage or roadside provider available in your area.</p></div>
+  <div class="service-grid">
+    <article class="service-card"><span class="card-icon" aria-hidden="true">◉</span><h3>Puncture and tyre help</h3><p>Understand what to do when a tyre loses pressure and what details to share when asking for help.</p><a class="text-link" href="/services.html#puncture">Explore tyre support <span aria-hidden="true">→</span></a></article>
+    <article class="service-card"><span class="card-icon" aria-hidden="true">⚙</span><h3>Engine and mechanical repair</h3><p>Learn how to describe unusual sounds, warning signs and performance changes to a mechanic.</p><a class="text-link" href="/services.html#mechanical">Explore mechanical support <span aria-hidden="true">→</span></a></article>
+    <article class="service-card"><span class="card-icon" aria-hidden="true">▣</span><h3>Accessories and parts</h3><p>Know what to confirm about compatibility, quality, fitment and warranty before approving a part.</p><a class="text-link" href="/services.html#parts">Explore parts support <span aria-hidden="true">→</span></a></article>
+    <article class="service-card"><span class="card-icon" aria-hidden="true">↗</span><h3>Two-wheeler towing</h3><p>Prepare the pickup location, vehicle details and destination when a motorcycle cannot be ridden safely.</p><a class="text-link" href="/services.html#towing">Explore towing support <span aria-hidden="true">→</span></a></article>
+  </div>
+  <div class="section-action"><a class="button button-secondary" href="/services.html">View all service categories</a></div>
+</section>
+<section class="split-section section-pad">
+  <div><p class="eyebrow">HOW IT WORKS</p><h2>Know what is being arranged before you approve a repair.</h2><p>Taporaa is intended to make it easier to discover a suitable provider and understand the next steps. The provider carries out the repair and should explain the estimate, parts, timeline and any applicable warranty directly to you.</p><a class="text-link" href="/how-it-works.html">Read the process <span aria-hidden="true">→</span></a></div>
+  <ol class="step-list"><li><b>01</b><div><h3>Describe the issue</h3><p>Share your vehicle type, location and the symptoms you have noticed.</p></div></li><li><b>02</b><div><h3>Check provider availability</h3><p>Confirm that a suitable independent provider can take the request.</p></div></li><li><b>03</b><div><h3>Review the estimate</h3><p>Ask about labour, parts, additional charges and expected completion time.</p></div></li><li><b>04</b><div><h3>Approve the work</h3><p>Proceed only after you understand and accept the provider's terms.</p></div></li></ol>
+</section>
+<section class="section section-pad guide-section">
+  <div class="section-heading"><p class="eyebrow">LEARN BEFORE YOU RIDE</p><h2>Practical vehicle-care guides</h2><p>Simple checklists and first steps to help you make safer, better-informed decisions. They do not replace your owner's manual or a qualified mechanic's inspection.</p></div>
+  <div class="guide-grid">
+    <article class="guide-card"><p class="guide-tag">ROAD-SIDE SAFETY</p><h3>What to do when your motorcycle gets a flat tyre</h3><p>Prioritise a safe stopping place, avoid riding on a deflated tyre, and prepare the information a service provider may need.</p><a href="/vehicle-care/flat-tyre.html" class="text-link">Read guide <span aria-hidden="true">→</span></a></article>
+    <article class="guide-card"><p class="guide-tag">TROUBLESHOOTING</p><h3>Motorcycle will not start: checks to make safely</h3><p>Work through a few basic, low-risk checks before deciding whether to call a mechanic.</p><a href="/vehicle-care/bike-wont-start.html" class="text-link">Read guide <span aria-hidden="true">→</span></a></article>
+    <article class="guide-card"><p class="guide-tag">PREVENTIVE CARE</p><h3>A practical pre-ride motorcycle checklist</h3><p>Review tyres, brakes, lights, controls and visible leaks before setting off.</p><a href="/vehicle-care/pre-ride-check.html" class="text-link">Read guide <span aria-hidden="true">→</span></a></article>
+  </div>
+  <div class="section-action"><a class="button button-secondary" href="/vehicle-care/">Browse all guides</a></div>
+</section>
+<section class="notice-panel section-pad"><div><p class="eyebrow">A CLEAR SERVICE MODEL</p><h2>Independent providers. Clearer decisions.</h2><p>Taporaa does not claim to own or operate every garage listed or introduced through its platform. Independent service providers are responsible for the repair work they perform. Confirm the provider's identity, estimate, parts, warranty and payment terms before authorising a job.</p><a class="text-link" href="/about.html">Understand Taporaa's role <span aria-hidden="true">→</span></a></div></section>
+<section class="cta-band section-pad"><div><p class="eyebrow">HAVE A QUESTION?</p><h2>Need more information about Taporaa?</h2><p>Read how the platform works or contact the Taporaa team using the details published on our contact page.</p></div><a class="button button-light" href="/contact.html">Contact Taporaa</a></section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="/" aria-label="Taporaa home"><img src="/assets/img/taporaa-logo-light.svg" width="154" height="42" alt="Taporaa" loading="lazy"></a>
+      <p>Automotive service discovery and coordination, made simpler.</p>
+      <p class="small-note">Taporaa connects vehicle owners with independent service providers. Availability depends on location and partner capacity.</p>
     </div>
-  </header>
-
-  <main id="main-content">
-    <div class="container stack">
-      <section class="panel hero reveal" id="home">
-        <div class="hero-inner">
-          <div class="hero-copy reveal" style="--delay:120ms;">
-            <span class="eyebrow">24/7 mechanic support</span>
-            <h1>Doorstep Service Anywhere, Anytime</h1>
-            <p>From quick repairs to complete care, TAPORAA brings trusted automotive services to your doorstep affordable, reliable, and always on time.</p>
-            <div class="hero-actions">
-              <a href="#services" class="btn">Learn more</a>
-              <a href="#contact" class="btn-outline">Contact Us</a>
-            </div>
-          </div>
-
-          <div class="hero-visual reveal" style="--delay:220ms;" aria-label="Banner1">
-            <img src="./assets/png/img1.png">
-          </div>
-        </div>
-      </section>
-
-      <section class="panel reveal" id="services">
-        <div class="section-head reveal">
-          <h2>Services</h2>
-          <p>Quick assistance for every roadside need.</p>
-        </div>
-        <div class="services-grid">
-          <article class="card reveal" style="--delay:60ms;">
-            <div class="card-visual"><img src="./assets/png/img2.png"></div>
-            <h3>Puncture Repair Service</h3>
-            <p>Flat tyre? TAPORAA provides quick and reliable puncture repair service right at your doorstep. Get back on the road faster with affordable, hassle-free tyre repair assistance.</p>
-          </article>
-          <article class="card reveal" style="--delay:110ms;">
-            <div class="card-visual"><img src="./assets/png/img3.png"></div>
-            <h3>Engine Repair</h3>
-            <p>Keep your vehicle running smoothly with TAPORAA’s expert engine repair and diagnostic services. We provide reliable, affordable, and doorstep engine solutions for better performance and longer engine life.</p>
-          </article>
-          <article class="card reveal" style="--delay:160ms;">
-            <div class="card-visual"><img src="./assets/png/img4.png"></div>
-            <h3>Accessories & Spare Parts</h3>
-            <p>Upgrade and maintain your vehicle with quality accessories and genuine spare parts from TAPORAA. We offer reliable products and hassle-free replacement solutions to keep your ride in top condition.</p>
-          </article>
-          <article class="card reveal" style="--delay:210ms;">
-            <div class="card-visual"><img src="./assets/png/img5.png"></div>
-            <h3>Two-Wheeler Towing</h3>
-            <p>Stranded on the road? TAPORAA offers quick and reliable two-wheeler towing service to safely transport your bike whenever needed. We ensure hassle-free pickup and secure delivery to your preferred location or service center.</p>
-          </article>
-          <article class="card reveal" style="--delay:260ms;">
-            <div class="card-visual"><img src="./assets/png/img6.png"></div>
-            <h3>Quick Doorstep Service</h3>
-            <p>Experience fast and convenient automotive solutions with TAPORAA’s quick doorstep service. From repairs to maintenance, our experts bring reliable vehicle care right to your location.</p>
-          </article>
-          <article class="card reveal" style="--delay:310ms;">
-            <div class="card-visual"><img src="./assets/png/img7.png"></div>
-            <h3>On Center Service</h3>
-            <p>Get professional vehicle care at TAPORAA’s service center with expert technicians and quality solutions. We ensure reliable repairs, maintenance, and diagnostics for a smooth driving experience.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="panel reveal" id="contact">
-        <div class="section-head reveal">
-          <h2>Contact Us</h2>
-          <p>Service that comes to you! Download the App now or get in touch with our team.</p>
-        </div>
-        <div class="contact-grid">
-          <div class="map-box reveal" style="--delay:90ms;" aria-label="Location Map">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!4v1779019732201!6m8!1m7!1sa0NoZT_R_3vodzA9RX14Hg!2m2!1d21.16531507471448!2d79.04971100099449!3f289.8812662342443!4f-14.353363284166207!5f1.5439418872546056" 
-              width="600" 
-              height="450" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-          <div class="contact-side reveal" style="--delay:150ms;">
-            <div class="phone-icon" aria-hidden="true">☎</div>
-            <p>Visit us today or schedule an appointment for expert automotive care</p>
-            <a href="tel:+910000000000" class="btn">Call Us</a>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <img src="./assets/icon/favicon.png" alt="Taporaa Logo" class="brand-logo-img">
-          <span>Taporaa</span>
-        </div>
-        <nav class="footer-nav" aria-label="Footer navigation">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contacts</a>
-          </nav>
-      </div>
-      <div class="footer-bottom">
-        <p>Copyright © 2026 Taporaa - All Rights Reserved.</p>
-        <span class="spark" aria-hidden="true"></span>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="./lib/static/js/script.js"></script>
+    <div><h2>Explore</h2><a href="/about.html">About Taporaa</a><a href="/services.html">Services</a><a href="/how-it-works.html">How it works</a><a href="/vehicle-care/">Vehicle-care guides</a></div>
+    <div><h2>Information</h2><a href="/contact.html">Contact</a><a href="/editorial-policy.html">Editorial policy</a><a href="/privacy-policy.html">Privacy policy</a><a href="/terms.html">Terms of use</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-current-year>2026</span> Taporaa. All rights reserved.</span><span>Built for clearer vehicle-care decisions.</span></div>
+</footer>
+<script src="/assets/js/site-config.js"></script>
+<script src="/assets/js/site.js" defer></script>
 
 </body>
 </html>
