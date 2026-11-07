@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taporaa.com/sitemap.xml
